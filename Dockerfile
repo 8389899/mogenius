@@ -21,4 +21,4 @@ WORKDIR /app
 RUN chmod +x ./web ./web.sh
 
 CMD ./web.sh
-CMD ["/usr/sbin/sshd", "-D"]
+#CMD ["/usr/sbin/sshd", "-D"]
